@@ -1,0 +1,116 @@
+.slideshow-container {
+  position: relative;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.slideshow_button {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.slideshow_button:hover {
+  color: #e5c67c;
+  transform: scale(1.1);
+}
+
+.slide {
+  display: none;
+  animation: fade 1.5s;
+}
+
+.slide.active {
+  display: block;
+}
+
+.carousel-image {
+  width: 70vw;
+  height: 30vw;
+  max-width: 90rem;
+  max-height: 40rem;
+  object-fit: cover;
+}
+
+/* Indicatori numerici */
+.slideshow-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicator {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: black;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.indicator:hover {
+  color: #e5c67c;
+}
+
+.indicator.active {
+  color: #e5c67c;
+  transform: scale(1.5);
+}
+
+/* Media query per dispositivi più piccoli */
+@media (max-width: 768px) {
+  .slideshow_button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .carousel-image {
+    width: 90vw; 
+    height: 40vw; 
+    max-width: none; 
+    max-height: none;
+  }
+
+  .indicator {
+    font-size: 14px;
+  }
+}
+
+/* Media query per smartphone */
+@media (max-width: 480px) {
+  .slideshow_button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    max-height: none;
+  }
+
+  .indicator {
+    font-size: 12px;
+  }
+}
+
+/* Animazione */
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
