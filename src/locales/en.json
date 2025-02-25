@@ -1,0 +1,103 @@
+{
+  "titles": {
+    "welcome-to-Se.Me.Te": "Welcome to Se.Me.Te",
+    "usefulnesCard1": "Always on your side",
+    "usefulnesCard2": "Customer focused solutions",
+    "usefulnesCard3": "Continuous quality and innovation",
+    "usefulnesCard4": "Technical assistance"
+  },
+  "subtitle": {
+    "offer-services": "We offer services in the IT sector to meet your needs with care and expertise. Find out what we can do for you."
+  },
+  "navigation": {
+    "company": "Company",
+    "support": "Support"
+  },
+  "card": {
+    "support": "Support",
+    "assistance": "Technical assistance",
+    "website": "Web site",
+    "linkform": "Contact us"
+  },
+  "desCard": {
+    "support": "Quick remote support, for device and software purchase or troubleshooting. If necessary, we schedule an on-site appointment.",
+    "assistance": "We take care of installation, configuration, repair and maintenance of your device.",
+    "solution": "With our systems service, we configure and optimize networks, servers, and IT systems to ensure secure and reliable performance for both individuals and businesses",
+    "website": "We build customized websites, including e-commerce, management, CRM and CMS",
+    "dev": "iOS and Android apps, to optimize your site's access even from smartphones"
+  },
+  "desUsefulnes": {
+    "cardOne": "We are committed to ensuring that every device and service lives up to your expectations. We are the partner you can always rely on.",
+    "cardTwo": "We are here to respond to solutions designed specifically for you. We adapt to every context to make technology always accessible.",
+    "cardThree": "We always select and offer high-quality, up-to-date and reliable technology. With us you can find solutions designed to offer the ultimate in safety and performance.",
+    "cardFour": "Technology never has to be a hindrance-our team is here to offer you quick and focused support. Rely on us for easy and worry-free technology management."
+  },
+  "value": {
+    "title": {
+      "about": "Our values"
+    },
+    "cards": {
+      "0": {
+        "title": "Operational clarity",
+        "description": "Transparent and direct communication for each service"
+      },
+      "1": {
+        "title": "Nimble solutions",
+        "description": "Quick answers and flexible solutions designed to fit your needs"
+      },
+      "2": {
+        "title": "Efficient support",
+        "description": "To fix any problem quickly and competently"
+      },
+      "3": {
+        "title": "Innovation",
+        "description": "Constantly updated technology to bring you the highest quality and performance."
+      }
+    }
+  },
+  "company": {
+    "title": {
+      "about": "Your partner for customized solutions"
+    },
+    "description": {
+      "part1": "Established in 2021, Se.Me.Te is an SRL specializing in the IT sector. We offer a wide range of services, including programming, sales, and rental of devices such as computers, embedded systems, and smartphones, as well as personalized technical support to meet every need.",
+      "part2": "We cater to both private and public clients, offering tailor-made solutions for anyone who wants to buy a new device, repair their own, or build an IT system designed for their needs. With us, competence and care always come first."
+    }
+  },
+  "support": {
+    "title": {
+      "about": "Do you need some help?"
+    },
+    "description": {
+      "help": "Contact our team through your preferred method. We are here to offer you all the assistance you need.",
+      "call": "Call us",
+      "chat": "Text with us",
+      "find": "You'll also find us on social media",
+      "social": "Go on Linkedin"
+    },
+    "form": {
+      "name": "Name",
+      "number": "Phone Number",
+      "request": "Tipe of request",
+      "message": "Messagge",
+      "sector": "select the area",
+      "selling": "sales",
+      "other": "other",
+      "send": "Send",
+      "regulation": "I consent to the processing of my personal data, in accordance with the Regulation (EU) 2016/679 (GDPR)."
+    }
+  },
+  "footer": {
+    "title": {
+      "about": "About us",
+      "contact": "Contact",
+      "follow": "Follow us on"
+    },
+    "link": {
+      "tech": "Company",
+      "sup": "Support",
+      "phone": "Phone Number",
+      "royalties":"All rights reserved"
+    }
+  }
+}

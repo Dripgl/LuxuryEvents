@@ -1,0 +1,338 @@
+/* 
+FONT PAGE 
+*/
+
+.petiText_font {
+  font-family: "Petit Formal Script", serif;
+  font-size: 2rem !important;
+  font-weight: 400;
+  color: #c58618 !important;
+}
+
+.philosopher_font {
+  font-family: "Philosopher", serif;
+  font-size: 2rem !important;
+  font-weight: 400;
+  color: #C58618 !important;
+}
+
+.catamText_fontDescrp {
+  font-family: "Catamaran", serif;
+  font-size: 2vh;
+  font-weight: 400;
+  color: #4d3303;
+  padding-right: 4rem;
+}
+
+.catamText_fontInverse {
+  font-family: "Catamaran", serif;
+  font-size: 2vh;
+  font-weight: 400;
+  color: #4d3303;
+  padding-left: 4rem;
+}
+
+.titleFont_journey {
+  font-family: "Philosopher", serif;
+  font-size: 5.5vh;
+  font-weight: 400;
+  background: #338B55;
+  background: linear-gradient(to right, #338B55 0%, #0E2517 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleFont_reverse {
+  font-family: "Catamaran", serif;
+  font-size: 5.5vh;
+  font-weight: 400;
+  background: #F91514;
+  background: linear-gradient(to right, #F91514 0%, #930C0C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleFont_wedding {
+  font-family: "Petit Formal Script", serif;
+  font-size: 5.5vh !important;
+  font-weight: 400;
+  background: #EFD78F;
+  background: linear-gradient(to right, #EFD78F 0%, #C58618 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 
+END FONT PAGE 
+*/
+
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #fefffe;
+  padding-top: 30px;
+}
+
+.travel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.travel-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.travel-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.travel-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.travel-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.travel-image {
+  flex: 1;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about_button {
+  font-family: "Catamaran", serif;
+  left: 10px;
+  font-size: 20px;
+  border-radius: 60%;
+  padding: 20px;
+  margin-top: 3rem;
+  background: transparent;
+  color: black;
+  border: 1px solid #ebcf88;
+  cursor: pointer;
+}
+
+.about_button:hover {
+  color: #e5c67c;
+  transform: scale(1.2);
+}
+
+/* 
+  * Second Section
+*/
+
+.section_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.text-section-inverse {
+  display: flex;
+  text-align: right;
+  align-items: end;
+  flex-direction: column;
+  padding: 20px;
+  width: 40rem;
+}
+
+.text-section {
+  display: flex;
+  text-align: left;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px;
+  width: 40rem;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  border: 14px solid rgb(250, 247, 247);
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.226);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 
+REDEFINING LUXURY SECTION 
+*/
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: white;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Catamaran", serif;
+  font-size: 15.4vh;
+  font-weight: 200;
+  padding-top: 0px;
+  margin-bottom: -3rem;
+  color: #4d3303;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Petit Formal Script", serif;
+  font-size: 11vh;
+  font-weight: 400;
+  padding-top: 0px;
+  margin-bottom: 3rem;
+  color: #4d3303;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Catamaran", serif;
+  font-size: 4vh;
+  font-weight: 200;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  color: #4d3303;
+}
+
+.discover-button {
+  font-family: "Catamaran", serif;
+  font-size: 15.4vh;
+  font-weight: 200;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 5px;
+  background: transparent;
+  border: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.link-prop {
+  text-decoration: none;
+  color: #4d3303;
+  cursor: pointer;
+}
+
+.link-prop:hover {
+  color: #338B55;
+}
+
+.link-prop.active {
+  color: #338B55;
+  transform: scale(1.5);
+}
+
+/* 
+Testimonial SECTION 
+*/
+
+.testimonial-container {
+  text-align: center;
+  padding: 50px 20px;
+  width: 90%;
+}
+
+.testimonial-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button-testimonial {
+  margin-top: 2rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.testimonial-position {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.testimonial-review {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.testimonial-rating {
+  font-size: 1.2rem;
+  color: #f5a623;
+}
